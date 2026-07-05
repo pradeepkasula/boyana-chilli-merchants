@@ -1,0 +1,35 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+.classpath
+.project
+.settings/
+
+# Backend — Maven / Spring Boot
+chilli-backend/target/
+chilli-backend/.mvn/wrapper/maven-wrapper.jar
+chilli-backend/!.mvn/wrapper/maven-wrapper.properties
+
+# Frontend — Node / Vite
+chilli-frontend/node_modules/
+chilli-frontend/dist/
+chilli-frontend/.vite/
+chilli-frontend/coverage/
+
+# Environment / secrets
+.env
+.env.local
+.env.*.local
+application-local.yml
+
+# Logs
+*.log
+logs/
